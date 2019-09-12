@@ -217,54 +217,6 @@ ul {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-/*Scroll To Top 
-#return-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.7);
-  width: 50px;
-  height: 50px;
-  display: block;
-  text-decoration: none;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  border-radius: 35px;
-  display: none;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-#return-to-top i {
-  color: #fff;
-  margin: 0;
-  position: relative;
-  left: 16px;
-  top: 13px;
-  font-size: 19px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-#return-to-top:hover {
-  background: rgba(0, 0, 0, 0.9);
-}
-
-#return-to-top:hover i {
-  color: #fff;
-  top: 5px;
-}
-
-
-
-
 /*Work-Projects*/
 .Work {
   margin: 2rem 0;
@@ -368,10 +320,11 @@ ul {
   margin-top: -50px;
 }
 
-/*Media Queries*/
+
 .navbar .icon {
   display: none;
 }
+/*Media Queries*/
 
 @media screen and (max-width: 600px) {
   .About .container div:first-child {
@@ -388,8 +341,7 @@ ul {
   }
 
   .About img {
-    width: 80%;
-    margin: auto;
+   display:none;
   }
 
   .About h1 {
@@ -428,8 +380,7 @@ ul {
   }
 
   .About img {
-    width: 80%;
-    margin: auto;
+   display:none;
   }
 
   .About h1 {
