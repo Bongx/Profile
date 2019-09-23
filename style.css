@@ -156,9 +156,9 @@ ul {
 }
 
 .About .container .body {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3rem;
+  display: flex;
+ flex-direction: row;
+ text-align:center;
   color: white;
   align-items: center;
   justify-content: center;
