@@ -15,26 +15,22 @@ function myFunction() {
   }
 }
 
-//Tooltip for navigation elements
-$(document).ready(function() {
-  $('[data-toggle="tooltip"]').tooltip();
-});
+//media queries
+function myFunction1() {
+  var x = document.getElementById("myNavBar");
 
-// ===== Scroll to Top ====
-$(window).scroll(function() {
-  if ($(this).scrollTop() >= 50) {
-    // If page is scrolled more than 50px
-    $("#return-to-top").fadeIn(200); // Fade in the arrow
+  if (x.className === "navbar") {
+    x.className += "responsive";
   } else {
-    $("#return-to-top").fadeOut(200); // Else fade out the arrow
+    x.className = "navbar";
   }
-});
-$("#return-to-top").click(function() {
-  // When arrow is clicked
-  $("body,html").animate(
-    {
-      scrollTop: 0 // Scroll to top of body
-    },
-    500
-  );
-});
+}
+//Responsive Nav Bar
+function myNav() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
