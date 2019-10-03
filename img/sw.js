@@ -7,16 +7,16 @@ const urlsToCache = [
 // CODELAB: Add list of files to cache here.
 const FILES_TO_CACHE = [
     '/',
-    '/index.html',
+    'index.html',
     'app.js',
 
 
-    '/style.css',
-    '/img/1.png',
-    '/img/2.png',
-    '/img/3.png',
-    '/img/4.png',
-    '/img/5.png'
+    'style.css',
+    'img/1.png',
+    'img/2.png',
+    'img/3.png',
+    'img/4.png',
+    'img/5.png'
 
 ]
 

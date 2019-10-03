@@ -19,28 +19,28 @@
   <nav class="navbar" id="myNavBar">
     <div class="w3-bar w3-light-grey ">
       <div class="nav w3-right">
-          <a href="#Home" class="w3-bar-item w3-button w3-hover-green">Home</a>
-          <a href="#About" class="w3-bar-item w3-button w3-hide-small w3-hover-green ">About</a>
-          <a href="#Work" class="w3-bar-item w3-button w3-hide-small w3-hover-green">Work</a>
-          <a href="#Contact" class="w3-bar-item w3-button w3-hide-small w3-hover-green">Contacts</a>
-          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"
-              onclick="myNav()">&#9776;</a>
+        <a href="#Home" class="w3-bar-item w3-button w3-hover-green">Home</a>
+        <a href="#About" class="w3-bar-item w3-button w3-hide-small w3-hover-green ">About</a>
+        <a href="#Work" class="w3-bar-item w3-button w3-hide-small w3-hover-green">Work</a>
+        <a href="#Contact" class="w3-bar-item w3-button w3-hide-small w3-hover-green">Contacts</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-right"
+          onclick="myNav()">&#9776;</a>
       </div>
 
-  </div>
+    </div>
 
-  <div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+    <div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
       <a href="#About" class="w3-bar-item w3-button">About</a>
       <a href="#Work" class="w3-bar-item w3-button">Work</a>
       <a href="#Contact" class="w3-bar-item w3-button">Contact</a>
-  </div>
+    </div>
   </nav>
   <!--Home-->
   <section class="Home" id="Home">
     <div class="container">
       <div class="Home-inner">
         <h1 class="lg-heading">
-          Bongiwe <span class="text-secondary">Moale</span>
+          Bongx <span class="text-secondary">Moale</span>
         </h1>
         <h2 class="sm-heading">Web Developer, Entrepreneur.</h2>
         <div class="icons">
@@ -225,29 +225,21 @@
 
 
   <footer id="main-footer">Copyright &copy: 2019 by Bongx Media</footer>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 400,
-      duration: 1000
-    });
-  </script>
+
   <!--Register a service worker-->
   <script>
-  if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('sw.js').then(function (registration) {
+          // Registration was successful
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function (err) {
+          // registration failed :(
+          console.log('ServiceWorker registration failed: ', err);
+        });
+      });
+    }
   </script>
 </body>
-
-<script src="app.js"></script>
 
 </html>
