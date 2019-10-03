@@ -1,8 +1,8 @@
 //When the user clicks read more button
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+let myFunction = () => {
+  let dots = document.getElementById("dots");
+  let moreText = document.getElementById("more");
+  let btnText = document.getElementById("myBtn");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
@@ -16,8 +16,8 @@ function myFunction() {
 }
 
 //media queries
-function myFunction1() {
-  var x = document.getElementById("myNavBar");
+let myFunction1 = () => {
+  let x = document.getElementById("myNavBar");
 
   if (x.className === "navbar") {
     x.className += "responsive";
@@ -26,11 +26,12 @@ function myFunction1() {
   }
 }
 //Responsive Nav Bar
-function myNav() {
+let myNav = () => {
   var x = document.getElementById("demo");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
   } else {
     x.className = x.className.replace(" w3-show", "");
   }
+
 }

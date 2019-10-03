@@ -19,7 +19,7 @@
   <nav class="navbar" id="myNavBar">
     <div class="w3-bar w3-light-grey ">
       <div class="nav w3-right">
-        <a href="#Home" class="w3-bar-item w3-button w3-hover-green">Home</a>
+        <a href="#Home" class="w3-bar-item w3-button w3-hide-small w3-hover-green">Home</a>
         <a href="#About" class="w3-bar-item w3-button w3-hide-small w3-hover-green ">About</a>
         <a href="#Work" class="w3-bar-item w3-button w3-hide-small w3-hover-green">Work</a>
         <a href="#Contact" class="w3-bar-item w3-button w3-hide-small w3-hover-green">Contacts</a>
@@ -29,10 +29,11 @@
 
     </div>
 
-    <div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
-      <a href="#About" class="w3-bar-item w3-button">About</a>
-      <a href="#Work" class="w3-bar-item w3-button">Work</a>
-      <a href="#Contact" class="w3-bar-item w3-button">Contact</a>
+    <div id="demo" class="mybar  w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium" style="margin-top:46px">
+      <a href="#Home" class="w3-bar-item w3-button" onclick="myNav()">Home</a>
+      <a href="#About" class="w3-bar-item w3-button" onclick="myNav()">About</a>
+      <a href="#Work" class="w3-bar-item w3-button" onclick="myNav()">Work</a>
+      <a href="#Contact" class="w3-bar-item w3-button" onclick="myNav()">Contact</a>
     </div>
   </nav>
   <!--Home-->
@@ -89,28 +90,34 @@
   <section class="skill">
     <div class="container">
       <h1 class="lg-heading">Skills</h1>
+      <!--Javascript-->
+      <div class="skills">
 
-      <div class="skill-card">
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" , alt="HTML5_logo">
-        <div class="skill-card_icon">
-          <section class="skill-card_body">
-            <h2 class="skill-card_title">
-              <span class="skill-card_duration">HTML and CSS</span>
-            </h2>
-            <ul class="skill-card_knowledge">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Bootstrap 4</li>
-              <li>Semantique</li>
-              <li>Canvas</li>
-              <li>Sass</li>
-            </ul>
-          </section>
+        <div class="skill-card">
+          <div data-iframe-width="150" data-iframe-height="270"
+            data-share-badge-id="77a383c1-3054-493d-9204-55a6930ad216">
+          </div>
+          <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+
+        </div>
+        <!--Web Devlopment-->
+        <div class="skill-card">
+          <div data-iframe-width="150" data-iframe-height="270"
+            data-share-badge-id="f070b382-94d7-4487-8ded-f9dde3067a6c">
+          </div>
+          <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+        </div>
+        <!--Html and CSS-->
+        <div class="skill-card">
+          <div data-iframe-width="150" data-iframe-height="270"
+            data-share-badge-id="50305be9-faf4-4556-9ea5-320957461498">
+          </div>
+          <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+
         </div>
       </div>
     </div>
-
 
   </section>
   <!--Work-->
@@ -240,6 +247,9 @@
       });
     }
   </script>
+  <script src="app.js">
+  </script>
+
 </body>
 
 </html>
