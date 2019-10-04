@@ -241,8 +241,7 @@ ul {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
 }
-
-.Work h1 {
+a .Work h1 {
   font-size: 3rem;
   color: var(--secondary-color);
 }

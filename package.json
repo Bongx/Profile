@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Website Porfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bongx/Profile.git"
+  },
+  "keywords": [
+    "profile"
+  ],
+  "author": "Bongiwe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bongx/Profile/issues"
+  },
+  "homepage": "https://github.com/Bongx/Profile#readme"
+}
