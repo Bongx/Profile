@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+  <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="style.css" />
@@ -18,7 +18,7 @@
 <body>
 
   <!--Navigation-->
-  <nav class="navbar navbar-expand-md  bg-dark navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-md  bg-dark navbar-light fixed-top">
     <a class="navbar-brand" href="#">
       <img src="img/javascript.png" alt="Logo" style="width:40px;" />
     </a>
@@ -28,10 +28,13 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#Home">Homes</a>
+          <a class="nav-link" href="#Home">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Skills" class="nav-link">SKills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Projects">Projects</a>
@@ -47,9 +50,10 @@
     <div class="container">
       <div class="Home-inner">
         <h1 class="lg-heading">
-          Bongx <span class="text-secondary">Moale</span>
+          Bongiwe <span class="text-secondary">Moale</span>
         </h1>
         <h2 class="sm-heading">Web Developer, Entrepreneur.</h2>
+
         <div class="icons">
           <a href="https://twitter.com/BongxNunki">
             <i class="fab fa-twitter  fa-2x  "></i>
@@ -94,7 +98,7 @@
       </div>
   </section>
   <!--Skills card-->
-  <section class="skill">
+  <section class="skill" id="Skills">
     <div class="container">
       <h1 class="lg-heading">Skills</h1>
       <!--Javascript-->
@@ -105,7 +109,8 @@
           <div data-iframe-width="150" data-iframe-height="270"
             data-share-badge-id="77a383c1-3054-493d-9204-55a6930ad216">
           </div>
-          <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+          <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js" Samesite=none>
+          </script>
 
         </div>
         <!--Web Devlopment-->
@@ -121,7 +126,8 @@
           <div data-iframe-width="150" data-iframe-height="270"
             data-share-badge-id="50305be9-faf4-4556-9ea5-320957461498">
           </div>
-          <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+          <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js" Samesite=none>
+          </script>
 
         </div>
       </div>
@@ -147,8 +153,7 @@
           <a href="https://github.com/Bongx/My-Portfolio" target="_blank" class="btn-light">
             <i class="fab fa-github"></i>Github
           </a>
-        </div>
-        <div class="project-tile">
+
           <caption class="caption">Go Art Galary</caption>
 
           <a href="https://codepen.io/bongx/full/mdbpyyX" target="_blank">
@@ -159,8 +164,7 @@
           <a href="https://github.com/Bongx/Art-Galary-Landing-Page" target="_blank" class="btn-light">
             <i class="fab fa-github"></i>Github
           </a>
-        </div>
-        <div class="project-tile">
+
           <caption class="caption">JS Technical Documentation</caption>
 
           <a href="https://codepen.io/bongx/full/JjPpdNv" target="_blank">
@@ -171,8 +175,7 @@
           <a href="https://github.com/Bongx/Javascript-Technical-Doc" target="_blank" class="btn-light">
             <i class="fab fa-github"></i>Github
           </a>
-        </div>
-        <div class="project-tile">
+
           <caption class="caption">Dr Motsepe's Tribute Page</caption>
 
           <a href="https://codepen.io/bongx/full/oNvpXXa" target="_blank">
@@ -183,8 +186,7 @@
           <a href="https://github.com/Bongx/TwitterBot" target="_blank" class="btn-light">
             <i class="fab fa-github"></i>Github
           </a>
-        </div>
-        <div class="project-tile">
+
           <caption class="caption">My Website Survey Form</caption>
 
           <a href="https://codepen.io/bongx/full/qBWpdRJ" target="_blank">
@@ -195,8 +197,7 @@
           <a href="https://github.com/Bongx/Survey-Form" target="_blank" class="btn-light">
             <i class="fab fa-github"></i>Github
           </a>
-        </div>
-        <div class="project-tile">
+
           <caption class="caption">Python Weather Bot</caption>
 
           <a href="https://codepen.io/bongx/full/qBWpdRJ" target="_blank">
@@ -221,11 +222,11 @@
 
       <div class="boxes">
         <div>
-          <span class="text-secondary">Emails:<a
+          <span class="text-secondary">Email:<a
               href="https://mail.google.com/mail/?view=cm&ui=2&tf=0&fs=1&to=bongiwemoale@gmail.com&" target="_blank"
               data-toggle="tooltip" data-placement="bottom" title="Click to email me">bongiwemoale@gmail.com</a>
         </div>
-        <div><span class="text-secondary">Phones:</span><a href="tel:+2763-7799-696">
+        <div><span class="text-secondary">Phone:</span><a href="tel:+2763-7799-696">
             <img src="img//za.svg" alt="South Africa" style="width: 40px" , height="20px" />
             +277799696</div>
         <div>
@@ -236,9 +237,6 @@
       </div>
 
   </section>
-
-
-
   <footer id="main-footer">Copyright &copy: 2019 by Bongx Media</footer>
 
   <!--Register a service worker-->
@@ -255,11 +253,7 @@
       });
     }
   </script>
-  <script>
-    //same-site cookies
-    document.cookie = 'same-site-cookie=foo; SameSite=Lax';
-    document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
-  </script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
